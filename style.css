@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0;
+    max-width: 390px;
+    background-image: url("https://phonoteka.org/uploads/posts/2022-09/1663124760_19-phonoteka-org-p-tekstura-zemli-dlya-fotoshopa-pinterest-27.jpg");
+}
+
+#scores {
+    color: white;
+}
+
+#player, #bomb {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: 100px;
+}
+
+#bomb {
+    display: none;
+}
